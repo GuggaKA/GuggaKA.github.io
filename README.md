@@ -6,6 +6,9 @@
 - þýða texta
 - finna myndbönd
 - passa heimildaskrá
+- litapaletta
+- bakgrunnsmynd
+- logo
 - skipta þessu út fyrir stutta lýsingu
 - Á vefsíðunni þurfa eftirtalin atriði að koma fram:
     1. Hvaða tegund af tölvuleik/búnað er um að ræða
