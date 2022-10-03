@@ -1,5 +1,5 @@
 # gudbjorg.github.io
 
-##To do listi
+## To do listi
 
--Taka screenshots úr leiknum
+- Taka screenshots úr leiknum
