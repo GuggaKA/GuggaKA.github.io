@@ -30,14 +30,14 @@
 }
 .allt
 {
-    margin:0 auto;
-    font-size: 1.1em;
-    font-family: 'Rubik', sans-serif;
-    color:black;
-    margin:0 auto;
-    padding:0em;
-    line-height: 1.5;
-    background: linear-gradient(to bottom, #299ed9 0%, #315dab 100%);
+  margin:0 auto;
+  font-size: 1.1em;
+  font-family: 'Rubik', sans-serif;
+  color:black;
+  margin:0 auto;
+  padding:0em;
+  line-height: 1.5;
+  background: linear-gradient(to bottom, #299ed9 0%, #315dab 100%);
 }
 .header
 {
