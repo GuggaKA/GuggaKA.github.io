@@ -13,19 +13,30 @@
   clear: both;
   *zoom: 1;
 }
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&family=Passion+One:wght@400;700;900&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400&display=swap');
-@media screen and (max-width: 48em) 
+@media screen and (max-width: 59.99em) 
 {
   .topnav a
   {
-    margin:0 auto;
     border-radius: 25px;
     border: 5px outset #346124;
     background:#66bb46;
-    text-align: center;
-    margin-top:1em;
     width:100%;
     max-width:500px;
+  }
+  .topnav .minni
+  {
+    width:60%;
+    margin:0 auto;
+    margin-top:3%;
   }
 }
 .allt
@@ -34,14 +45,14 @@
   font-size: 1.1em;
   font-family: 'Rubik', sans-serif;
   color:black;
-  margin:0 auto;
   padding:0em;
   line-height: 1.5;
   background: linear-gradient(to bottom, #299ed9 0%, #315dab 100%);
+  overflow-x: hidden;
 }
 .header
 {
-  height:800px;
+  height:100%;
   padding-top:75px;
   padding-left:5px;
   padding-right:5px;
@@ -60,11 +71,13 @@
   margin-right: auto;
   width: 90%;
   max-width:700px;
+  max-height:150px;
 }
 .topnav
 {
   margin: 0 auto;
-  padding:1em;
+  margin-top:3%;
+  padding:2%;
   font-size: 1.3em;
   font-family: 'Passion One', cursive;
   align-content: center;
@@ -72,12 +85,11 @@
   flex-flow: column;
   width:100%;
 }
-.topnav .minni
+.topnav a
 {
-  width:70%;
   margin:0 auto;
-  margin-top:0.5em;
-  margin-left:2em;
+  text-align: center;
+  margin-top:4%;
 }
 a
 {
@@ -105,6 +117,8 @@ a:Active
   padding:1em;
   background:#b8d14a;
   text-align:justify;
+  width:100%;
+  margin:0 auto;
 }
 .banner .video
 {
@@ -206,6 +220,10 @@ hr
   {
     height:400px;
   }
+  .topnav a
+  {
+    margin-top:0.5em;
+  }
 }
 @media screen and (min-width:48em)
 {
@@ -219,6 +237,14 @@ hr
   .headerbackground
   {
     margin-top:2em;
+  }
+  .topnav .minni
+  {
+    margin-top:0.3em;
+  }
+  .topnav
+  {
+    margin-top:1em;
   }
 }
 @media screen and (min-width:60em)
@@ -276,15 +302,29 @@ hr
   {
     display:flex;
     flex-flow:row;
+    margin-top:0em;
   }
   .topnav a
   {
     padding:5px;
+    margin:5px;
+    padding-bottom:0em;
+    border-radius: 25px;
+    border: 5px inset #346124;
+    background:#299ed9;
+    width:100%;
+    padding-top:0.8em;
+  }
+  .topnav .minni
+  {
+    margin:5px;
+    padding:5px;
+    width:100%;
   }
 }
 @media screen and (min-width:80em)
 {
-  .topnav
+  .topnavbox
   {
     max-width:60em;
   }
