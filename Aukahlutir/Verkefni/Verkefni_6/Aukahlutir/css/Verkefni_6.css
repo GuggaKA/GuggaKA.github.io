@@ -1,0 +1,295 @@
+*{
+    box-sizing: border-box;
+}
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Caveat+Brush&family=Fredericka+the+Great&family=Permanent+Marker&family=Rubik+Dirt&display=swap');
+body
+{
+  color:black;
+  margin:0 auto;
+  padding:0em;
+  line-height: 1.5;
+  background: linear-gradient(to top, #118C55 0%, #30D98D 100%);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1em;
+  font-family: 'Caveat Brush', cursive;
+}
+.header
+{
+  text-align:center;
+  padding:1em;
+  padding-top:1em;
+  padding-bottom:1em;
+  font-family: 'Permanent Marker', cursive;
+}
+.header h1
+{
+  font-family: 'Fredericka the Great', cursive;
+  padding-bottom:4em;
+  font-size: 4em;
+  text-align:center;
+  margin:0.5em auto;
+  margin-bottom:0.5em;
+  background:#8C1603;
+  padding-top:1em;
+  padding-bottom:0.5em;
+  border-radius: 25px;
+  border: 5px groove black;
+  max-width:700px;
+  height:4em;
+}
+.topnavbox
+{
+  border-radius: 25px;
+  border: 5px groove black;
+  background:#8C1603;
+  margin:0,5em;
+  max-width:600px;
+  margin-top:0.5em;
+}
+.topnav
+{
+  display:grid;
+  grid-template-rows: 1fr; 
+  padding:1em;
+  font-size: 1.3em;
+}
+.verkefni
+{
+  margin:0 auto;
+  margin-top:0.5em;
+  padding:1em;
+  border-radius: 25px;
+  border: 5px groove black;
+  background:#8C1603;
+  max-width:500px;
+  text-align:center;
+  font-size: 1.5em;
+}
+div
+{
+  margin:0 auto;
+  padding:0em;
+}
+.topnav a
+{
+  padding:1em;
+}
+a
+{
+  text-decoration: none;
+}
+a:link
+{
+	color:black;
+}
+a:visited
+{
+	color:grey;
+}
+a:hover
+{
+	color:rgb(255, 129, 129);
+}
+a:Active
+{
+	color:rgb(255, 0, 0);
+}
+main
+{
+    color:white;
+    margin:0 auto;
+}
+.banner
+{
+    background: linear-gradient(to top, #8C1603 0%, #D94730 100%);
+}
+.blockquote
+{
+  background: rgba(121, 24, 153, 0.505);
+  padding:1em;
+}
+.columns
+{
+  display:grid;
+  grid-template-columns: 1fr;
+  gap:2em;
+  padding:1em;
+}
+.gluggi 
+{
+  width:100%;
+  height:auto;
+}
+.lag
+{
+  margin:0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lag div
+{
+  margin-bottom:1em;
+}
+.footer
+{
+  width:100%;
+  margin:0 auto;
+  display:grid;
+  grid-template-columns:1fr;
+  gap:0.5em;
+}
+.kort
+{
+  padding-top:1em;
+}
+.copy
+{
+  position:relative;
+  left:0.5em;
+  bottom:0.15em;
+}
+@media screen and (min-width:18.75em)
+{
+  .footer
+  {
+    width:90%;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:1fr;
+    gap:1em;
+  }
+}
+@media screen and (min-width: 25em) 
+{
+  .topnav
+  {
+    display:flex;
+    flex-flow: row;
+    margin:auto;
+    width:fit-content;
+  }
+  .gluggi 
+  {
+    width:100%;
+    height:auto;
+  }
+}
+@media screen and (min-width: 30em) 
+{
+  .gluggi 
+  {
+    width:100%;
+    height:auto;
+ }
+}
+@media screen and (min-width: 37.5em) 
+{
+  .gluggi 
+  {
+    width:100%;
+    height:auto;
+  }
+  .header h1
+  {
+   font-size: 5em;
+   height:2em;
+   padding-top:0.2em;
+   padding-bottom:0;
+   margin:0 auto;
+   margin-top:1em;
+   margin-bottom:0.5em;
+  }
+  .verkefni
+  {
+    margin:0 auto;
+    margin-top:1em;
+    margin-bottom:1em;
+  }
+}
+@media screen and (min-width:48em)
+{
+  .columns
+  {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:2em;
+  }
+  .tveir_dalkar
+  {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:1em;
+  }
+  .gluggi {
+    width:100%;
+    height:auto;
+  }
+  .header h1
+  {
+   font-size: 8em;
+   height:2em;
+   padding-top:0.2em;
+   padding-bottom:0;
+   margin:0 auto;
+   margin-top:0.4em;
+   margin-bottom:0.2em;
+  }
+}
+@media screen and (min-width:60em)
+{
+  .header
+  {
+    width:100%;
+    margin:0 auto;
+  }
+  main
+  {
+    width:70%;
+    margin:0 auto;
+  }
+  .footer
+  {
+    width:85%;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    gap:1em;
+  }
+  .kort
+  {
+    padding:3em;
+  }
+  .banner
+  {
+    padding:1em;
+  }
+  .gluggi 
+  {
+    width:100%;
+    height:auto;
+    display:grid;
+    align-content: center;
+  }
+}
+@media screen and (min-width:80em)
+{
+  .gluggi 
+  { 
+    width:100%;
+    height:auto;
+  }
+}

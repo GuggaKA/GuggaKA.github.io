@@ -1,0 +1,253 @@
+*{
+    box-sizing: border-box;
+}
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap');
+body
+{
+  color:black;
+  margin:0 auto;
+  padding:0em;
+  padding-top: 2em;
+  line-height: 1.5;
+  font-family: 'Indie Flower', cursive;
+  background: linear-gradient(to top, #118C55 0%, #30D98D 100%);
+}
+.header
+{
+  height:8em;
+  text-align:center;
+}
+.header h1
+{
+  font-size: 3em;
+  text-align:center;
+  font-family: 'Shadows Into Light', cursive;
+  margin:auto;
+}
+.topnav
+{
+  display:flex;
+  flex-flow: row;
+  margin:auto;
+  width:fit-content;
+}
+div
+{
+  margin:0 auto;
+}
+.topnav a
+{
+  padding:1em;
+}
+.verkefni
+{
+  position:absolute; 
+  right:5%; 
+  top:0%;
+  text-align:right;
+}
+a
+{
+  text-decoration: none;
+}
+a:link
+{
+	color:black;
+}
+a:visited
+{
+	color:grey;
+}
+a:hover
+{
+	color:rgb(255, 129, 129);
+}
+a:Active
+{
+	color:rgb(255, 0, 0);
+}
+main
+{
+    color:white;
+    margin:0 auto;
+}
+.banner
+{
+    background: linear-gradient(to top, #8C1603 0%, #D94730 100%);
+}
+.blockquote
+{
+  background: rgba(121, 24, 153, 0.505);
+  padding:1em;
+}
+.columns
+{
+  display:grid;
+  grid-template-columns: 1fr;
+  gap:2em;
+  padding:1em;
+}
+.innermenu
+{
+  display:flex;
+  flex-flow: column;
+  justify-content:center;
+  width:100%;
+  margin: 0 auto;
+}
+.innermenu a
+{
+  background-color: #52FFB1; 
+  text-align: center;
+  border: 1px solid black;
+  padding-bottom: 0em;
+  width:100%;
+}
+.innermenu .long
+{
+  width:100%;
+}
+.footer
+{
+  width:70%;
+  margin:0 auto;
+  display:grid;
+  grid-template-columns:1fr;
+  gap:1em;
+}
+.takki
+{
+  height: 1.5em;
+  width: 1.5em;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  position: fixed;
+  bottom:5%;
+  right:5%;
+  font-size: 2em;
+}
+.brandari
+{
+  padding:1em;
+}
+@media screen and (min-width:37.5em)
+{
+}
+@media screen and (min-width:48em)
+{
+  .innermenu
+  {
+    display:flex;
+    flex-flow: row;
+    justify-content:left;
+    width:100%;
+    margin: 0 auto;
+  }
+  .innermenu a
+  {
+    background-color: #52FFB1; 
+    text-align: center;
+    border: 1px solid black;
+    padding-bottom: 0em;
+    width:11.167%;
+  }
+  .innermenu .long
+  {
+    width:16.5%;
+  }
+  .innermenu .longer
+  {
+    width:22%;
+  }
+  .innermenu .longest
+  {
+    width:28%;
+  }
+  .columns
+  {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:2em;
+  }
+  .tveir_dalkar
+  {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:1em;
+  }
+}
+@media screen and (min-width:60em)
+{
+  .topnav
+  {
+    position:absolute;
+    top:7em;
+    right:15%;
+  }
+  header
+  {
+    width:70%;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  main
+  {
+    width:70%;
+    margin:0 auto;
+  }
+  header h1
+  {
+    position:absolute;
+    top:2em;
+    left:15%;
+    padding-left:0.25em;
+  }
+  .footer
+  {
+    width:70%;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:1em;
+  }
+  .banner
+  {
+    padding:1em;
+  }
+  .innermenu
+  {
+    width:115%;
+    justify-content:center;
+  }
+  .innermenu a
+  {
+    width:12%;
+  }
+  .innermenu .long
+  {
+    width:16%;
+  }
+  .innermenu .longer
+  {
+    width:22%;
+  }
+  .innermenu .longest
+  {
+    width:29%;
+  }
+}

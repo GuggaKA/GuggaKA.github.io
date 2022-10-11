@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+body
+{
+  max-width: 80em;
+  margin:0 auto;
+  padding:1em;
+  line-height: 1.5;
+}
+nav
+{
+  border:1px solid green;
+}
+header
+{
+  border:1px solid red;
+  text-align: center;
+}
+header h1
+{
+  color:#a58b49e6;
+  font-family:"clarence-italic","Lucida Handwriting","courier new",'apple chancery', 'zapf chancery', 'brush script std', florence, 'goudy old style', papyrus;
+  font-size:3.5em;
+}
+header p
+{
+  padding-bottom:1em;
+  padding-top:0em;
+}
+h3
+{
+  display:block;
+  font-size:1.17em;
+  margin-block-start:1em;
+  margin-inline-start:8px;
+  margin-inline-end:0px;
+  font-weight:bold;
+}
+li
+{
+  text-align:-webkit-match-parent;
+}
+ul
+{
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+footer
+{
+  border:1px solid black;
+  display:flex;
+  padding-bottom:1em;
+}
+footer a
+{
+  padding:7px;
+}
+.box
+{
+  border:1px solid black;
+  width:80%;
+  margin:0 auto;
+  padding:1em;
+}
+.container
+{
+  grid-template-columns: 1fr;
+}
+footer
+{
+  flex-flow:column;
+  align-items:center;
+}
+@media screen and (min-width:37.5em)
+{
+  .aside
+  {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:2em;
+  }
+}
+@media screen and (min-width:48em)
+{
+  .topmenu, .footer
+  {
+    display:flex;
+    flex-flow:row;
+    justify-content: space-around;
+    align-items: center;
+    margin:0;
+    padding:0;
+    list-style-type: none;
+  }
+  .main
+  {
+    gap:2em;
+    border:1px solid blue;
+    padding: 0 1em;
+  }
+}
+@media screen and (min-width:60em)
+{
+  .main
+  {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+  }
+}

@@ -1,0 +1,66 @@
+*
+{
+    box-sizing: border-box;
+}
+.group:before,
+.group:after
+{
+    clear:both;
+}
+.group 
+{
+    clear: both;
+    *zoom: 1;
+}
+body
+{
+    width:60%;
+    margin:0 auto;
+    border: 5px red;
+}
+h1
+{
+    border: 1px solid green
+}
+div
+{
+    border:3px solid red;
+    padding:50px;
+    margin:30px 0px;
+    color:red;
+}
+.box3
+{
+    border:blue 3px dashed;
+    color:blue;
+    padding:8px;
+}
+ul.block
+{
+display:block;
+}
+ul.block li
+{
+    padding:1em;
+    margin:1em;
+    border:3px dashed green;
+}
+ul.inline li
+{
+    display:inline;
+    padding:1em;
+    margin:1em;
+    border:3px dashed blue;
+    color:red
+}
+ul.inline_block li
+{
+    display:inline-block;
+    padding:1em;
+    margin:1em;
+    border:3px dashed red;
+}
+li
+{
+border:1px solid black;
+}

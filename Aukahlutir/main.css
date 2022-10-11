@@ -1,0 +1,283 @@
+*{
+    box-sizing: border-box;
+}
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&family=Passion+One:wght@400;700;900&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400&display=swap');
+@media screen and (max-width: 48em) 
+{
+  .topnav a
+  {
+    margin:0 auto;
+    border-radius: 25px;
+    border: 5px outset #346124;
+    background:#66bb46;
+    text-align: center;
+    margin-top:1em;
+    width:100%;
+    max-width:500px;
+  }
+}
+.allt
+{
+    margin:0 auto;
+    font-size: 1.1em;
+    font-family: 'Rubik', sans-serif;
+    color:black;
+    margin:0 auto;
+    padding:0em;
+    line-height: 1.5;
+    background: linear-gradient(to bottom, #299ed9 0%, #315dab 100%);
+}
+.header
+{
+  height:800px;
+  padding-top:75px;
+  padding-left:5px;
+  padding-right:5px;
+}
+.headerbackground
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.headerbackground img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width:700px;
+}
+.topnav
+{
+  margin: 0 auto;
+  padding:1em;
+  font-size: 1.3em;
+  font-family: 'Passion One', cursive;
+  align-content: center;
+  display:flex;
+  flex-flow: column;
+  width:100%;
+}
+.topnav .minni
+{
+  width:70%;
+  margin:0 auto;
+  margin-top:0.5em;
+  margin-left:2em;
+}
+a
+{
+  text-decoration: none;
+}
+a:link
+{
+	color:black;
+}
+a:visited
+{
+	color:rgb(123, 34, 34);
+}
+a:hover
+{
+	color:#346124;
+}
+a:Active
+{
+	color:#66bb46;
+}
+.banner
+{
+  background:#ffffff;
+  padding:1em;
+  background:#b8d14a;
+  text-align:justify;
+}
+.banner .video
+{
+  padding:0em;
+}
+.fyrirsogn
+{
+  font-family: 'Passion One', cursive;
+  line-height: 1.5;
+  margin-top:1em;
+  text-align:left;
+}
+hr
+{
+  border:none;
+  border-top:#346124 5px dotted;
+  margin-top:3em;
+  margin-bottom:1em;
+}
+.picture img
+{
+  width:auto;
+  height:100%;
+  margin:5px;
+  margin-right:1em;
+  border:#346124 solid 1em;
+  border-radius: 25px;
+  max-width:360px;
+  margin-bottom:1em;
+}
+.video
+{
+  margin:0px;
+  border:#346124 solid 1em;
+  height:197px;
+  width:350px;
+  border-radius: 25px;
+}
+.footer
+{
+  text-align:center;
+}
+.footer ul
+{
+  list-style-type: none;
+  padding:0em;
+}
+.takki
+{
+  display: inline-block;
+  text-align: center;
+  position: fixed;
+  bottom:3%;
+  right:2%;
+  font-size: 2em;
+}
+.copy
+{
+  position:relative;
+  left:0.5em;
+  bottom:0.15em;
+}
+
+@media screen and (min-width:18.75em)
+{
+}
+@media screen and (min-width: 25em) 
+{
+  .rammi
+  {
+    border:#346124 solid 5px;
+    padding:1em;
+    border-radius: 25px;
+    margin-top:1em;
+  }
+  .footer nav 
+  {
+    border:#299ed9 solid 5px;
+    background:#299ed9;
+    border-radius: 25px;
+    margin:1em;
+    padding:0em;
+  }
+}
+@media screen and (min-width: 30em) 
+{
+}
+@media screen and (min-width: 37.5em) 
+{
+}
+@media screen and (min-width:48em)
+{
+  .footer
+  {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:0 auto;
+    width:90%;
+  }
+  .headerbackground
+  {
+    margin-top:2em;
+  }
+}
+@media screen and (min-width:60em)
+{
+  .kassar
+  {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:0.5em;
+    height:fit-content;
+  }
+  .will
+  {
+    width:100%;
+    height:auto;
+    max-height:350px;
+    margin:0 auto;
+    border:#346124 solid 2.5em;
+    border-radius: 25px;
+    background:#346124;
+    margin-top:1em;
+  }
+  .kassar img
+  {
+    max-width:266px;
+    height:auto;
+  }
+  .banner
+  {
+    width:90%;
+    margin:0 auto;
+    border-radius: 25px;
+    border: 5px outset #346124;
+    padding:1em;
+  }
+  .footer
+  {
+    width:90%;
+  }
+  .topnavbox
+  {
+    margin:0 auto;
+    width:90%;
+    justify-content:center;
+    margin-top:10em;
+    border-radius: 25px;
+    border: 5px outset #346124;
+    background:#66bb46;
+  }
+  .topnav
+  {
+    display:flex;
+    flex-flow:row;
+  }
+  .topnav a
+  {
+    padding:5px;
+  }
+}
+@media screen and (min-width:80em)
+{
+  .topnav
+  {
+    max-width:60em;
+  }
+  .banner
+  {
+    max-width:60em;
+  }
+  .footer
+  {
+    max-width:60em;
+  }
+}
