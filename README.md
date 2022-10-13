@@ -1,31 +1,18 @@
 # gudbjorg.github.io
 
-## To do listi
+Vefsíða með upplýsingum um The Sims. Nær allur textinn er copy-pastaður af Wikipedia.
 
-- Taka screenshots úr leiknum
-- þýða texta
-- finna myndbönd
-- passa heimildaskrá
-- litapaletta
-- bakgrunnsmynd
-- logo
-- skipta þessu út fyrir stutta lýsingu
-- Á vefsíðunni þurfa eftirtalin atriði að koma fram:
-    1. Hvaða tegund af tölvuleik/búnað er um að ræða
-    2. Hvenær var hann búinn til
-    3. Hverjir eru höfundar og framleiðendur
-    4. Hverjir eru notendur leiksins/búnaðarins (aldur – kyn - áhugamál)
-    5. Hvernig hefur leikurinn/búnaðurinn þróast
-    6. Hverjar eru framtíðarhorfur leiksins eða hvenær var hætt að framleiða leikinn.
-    7. Ritgerðin á að vera á íslensku eða á móðurmáli nemenda.
-    8. Setjið myndefni á vefsíðuna til að styðja framsetninguna.
-- Vefsíðan á að vera sveigjanleg, letur og myndir eiga að birtast eðlilega í öllum skjástærðum.
-- Allur kóði á að vera skipulega uppsettur og myndir eiga að vera í sér möppu. Html tög sem eru
-hreiðruð í önnur tög eiga að vera inndregin.
-- Í stílsíðu eiga eigindi að vera inndregin og stílar að vera skipulega settir í stílsíðuna.
-- Vefsíðan á að vera villulaus og allir tenglar virkir
+#Heimildaskrá
 
-#Heimildir
-
--By Official GDC - Game Developers Choice Awards @ GDC 2010, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=9783149
--https://en.wikipedia.org/wiki/The_Sims
+- By Official GDC - Game Developers Choice Awards @ GDC 2010, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=9783149
+- https://en.wikipedia.org/wiki/The_Sims
+- https://gamerant.com/sims-4-players-majority-young-women/
+- https://youtu.be/8yLpvhNfoWA
+- https://youtu.be/t9u1zMCos8w
+- https://youtu.be/p7BAUNzJvts
+- https://youtu.be/z00mK3Pxc8w
+- https://en.wikipedia.org/wiki/The_Sims_Carnival
+- https://sims.fandom.com/wiki/The_Sims_Online?so=search
+- https://sims.fandom.com/wiki/The_Sims_Stories?so=search
+- https://sims.fandom.com/wiki/The_Sims_Medieval?so=search
+- https://sims.fandom.com/wiki/The_Sims_Social?so=search

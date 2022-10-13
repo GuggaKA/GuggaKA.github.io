@@ -90,6 +90,10 @@ html,body
   text-align: center;
   margin-top:4%;
 }
+.topnav a:visited
+{
+	color:black;
+}
 a
 {
   text-decoration: none;
@@ -137,16 +141,27 @@ hr
   margin-top:3em;
   margin-bottom:1em;
 }
+.will img
+{
+  width:99%;
+  height:auto;
+  margin:0 auto;
+  border:#346124 solid 1em;
+  border-radius: 25px;
+  margin-bottom:1em;
+  max-width:750px;
+}
 .picture img
 {
-  width:100%;
+  width:auto;
   height:auto;
   margin:5px;
   margin-right:1em;
   border:#346124 solid 1em;
   border-radius: 25px;
-  max-width:360px;
+  max-height:360px;
   margin-bottom:1em;
+  float:left;
 }
 .video
 {
@@ -193,6 +208,15 @@ hr
   .rammi
   {
     border:#346124 solid 5px;
+    padding:1em;
+    border-radius: 25px;
+    margin-top:1em;
+    min-height:360px;
+  }
+  .rammiwill
+  {
+    border:#346124 solid 5px;
+    background:#346124;
     padding:1em;
     border-radius: 25px;
     margin-top:1em;
@@ -257,6 +281,27 @@ hr
   {
     max-height:300px;
   }
+  .kassar
+  {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:0.5em;
+    height:fit-content;
+  }
+  .kassar .picture
+  {
+    max-width:266px;
+    height:auto;
+  }
+  .will img
+  {
+    padding-top:5%;
+    padding-bottom:5%;
+    margin:0 auto;
+    border:#346124 solid 1em;
+    border-radius: 25px;
+    margin-bottom:1em;
+  }
 }
 @media screen and (min-width:60em)
 {
@@ -267,29 +312,6 @@ hr
   .video
   {
     height:270px;
-  }
-  .kassar
-  {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    gap:0.5em;
-    height:fit-content;
-  }
-  .will
-  {
-    width:100%;
-    height:auto;
-    max-height:350px;
-    margin:0 auto;
-    border:#346124 solid 2.5em;
-    border-radius: 25px;
-    background:#346124;
-    margin-top:1em;
-  }
-  .kassar img
-  {
-    max-width:266px;
-    height:auto;
   }
   .banner
   {
@@ -324,11 +346,11 @@ hr
     padding:5px;
     margin:5px;
     padding-bottom:0em;
-    border-radius: 25px;
-    border: 5px inset #346124;
-    background:#299ed9;
+    border-radius: 50px;
+    border: 4px solid #346124;
     width:100%;
     padding-top:0.8em;
+    font-size:0.8em;
   }
   .topnav .minni
   {
