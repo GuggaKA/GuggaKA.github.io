@@ -1,4 +1,3 @@
-# gudbjorg.github.io
 
 Vefsíða með upplýsingum um The Sims. Nær allur textinn er copy-pastaður af Wikipedia.
 
